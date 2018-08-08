@@ -48,7 +48,7 @@ public class Main3Activity extends AppCompatActivity {
         mTextTime.setText(Hour+":"+Minute);
         mTextDate.setText(Day+"-"+Month+"-"+Year);
         /////////////////////////////////////////////////////////////////////
-    /*
+
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -62,7 +62,7 @@ public class Main3Activity extends AppCompatActivity {
                         break;
 
                     case R.id.navigation_notifications:
-                        Intent intent2 = new Intent(Main3Activity.this,Main4Activity.class);
+                        Intent intent2 = new Intent(Main3Activity.this,Main3Activity.class);
                         startActivity(intent2);
                         break;
 
@@ -74,7 +74,7 @@ public class Main3Activity extends AppCompatActivity {
                 }
                 return false;
             }
-        });*/
+        });
 
     }
 

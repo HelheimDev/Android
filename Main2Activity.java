@@ -175,7 +175,7 @@ public class Main2Activity extends Activity {
                         break;
 
                     case R.id.navigation_notifications:
-                        Intent intent2 = new Intent(Main2Activity.this,Main4Activity.class);
+                        Intent intent2 = new Intent(Main2Activity.this,Main2Activity.class);
                         startActivity(intent2);
                         break;
 

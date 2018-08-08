@@ -83,7 +83,7 @@ public class Main extends AppCompatActivity{
                         break;
 
                     case R.id.navigation_notifications:
-                        Intent intent2 = new Intent(Main.this,Main4Activity.class);
+                        Intent intent2 = new Intent(Main.this,Main.class);
                         startActivity(intent2);
                         break;
 
